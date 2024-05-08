@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>서비스이름</title>
+</head>
+<body>
+
+<!--?email=123%40123.com&password=123&gender=male&html=html&css=css-->
+<h1>서비스이름</h1>
+<hr>
+<section>
+    <h2>회원가입</h2>
+    <p>원활한 서비스를 이용하기 위해</p>
+    <form action="" method="get">
+        <label for="user-email">이메일</label>
+        <input type="email" name="email" id="user-email" placeholder="user@email.com">
+        <label for="user-pw">비밀번호</label>
+        <input type="password" name="password" id="user-pw" placeholder="password"> <br>
+
+        <fieldset>
+            <legend>성별</legend>
+            <input type="radio" id="user-male" name="gender" value="male">
+            <label for="user-male">남성</label>
+            <input type="radio" id="user-female" name="gender" value="female">
+            <label for="user-female">여성</label>
+            <input type="radio" id="user-nothing" name="gender" value="nothing">
+            <label for="user-nothing">선택안함</label>
+        </fieldset>
+        <fieldset>
+            <legend>사용기술</legend>
+            <input type="checkbox" id="html" name="html" >
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">css</label>
+            <input type="checkbox" id="javascript" name="javascript" >
+            <label for="javascript">javascript</label>
+        </fieldset>
+        <button>회원가입</button>
+    </form>
+</section>
+
+</body>
+</html>
