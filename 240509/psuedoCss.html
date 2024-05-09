@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div:hover{
+            background-color: darkblue;
+            color: white;
+        }
+
+        div:active{
+            background-color: indianred;
+            color: white;
+        }
+
+        div {
+            width: 300px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        ul li:nth-child(3){
+            background-color: darkslateblue;
+            color: white;
+        }
+        section div:nth-child(2){ /* 2지만 두번째 div가 아니라 첫번째 div가 선택됨*/
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>0</h1>
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+    </section>
+    <br>
+    <br>
+    <div>
+        hello
+    </div>
+    <div>
+        <ul>
+            <li>:first-child</li>
+            <li>:last-child</li>
+            <li>:nth-child</li>
+            <li>자주 사용하지는 않는다.</li>
+        </ul>
+    </div>
+</body>
+</html>

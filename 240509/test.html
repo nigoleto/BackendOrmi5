@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: "Spoqa Han Sans Neo";
+            src: url("SpoqaHanSansNeo-Regular.ttf") format("truetype");
+            font-weight: normal;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            font-size: 12px;
+            font-family: "Spoqa Han Sans Neo";
+            font-weight: 500;
+            line-height: 15px;
+
+            text-decoration-line: none;
+        }
+
+        article {
+            width: 350px;
+            height: 140px;
+            border: 1px solid #DBDBDB;
+            border-radius: 5px;
+            margin: 20px auto;
+            padding: 0;
+        }
+
+        .welcome{
+            padding: 0 0 0 16px;
+            margin: 20px 0 15px 0;
+        }
+
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 318px;
+            height: 40px;
+            border-radius: 4px;
+            margin: 0 16px 0 16px;
+
+            background-color: #711BFF;
+        }
+
+        .button:hover{
+            background-color: #5215b5;
+        }
+
+        .button:active{
+            background-color: #30285a;
+        }
+
+        .login{
+            color: white;
+            padding: 2px 0 0 5px;
+
+            user-select: none;
+        }
+
+        .find{
+            margin: 16px 10px 0 16px;
+            color: #767676;
+        }
+
+        .idPw {
+            user-select: none;
+        }
+
+        .space{
+            margin: 0 63px;
+        }
+
+        img {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+  <article>
+    <p class="welcome"> 더 편리해진 위니브에 오신 것을 환영합니다. </p>
+
+      <a href="https://bootcamp.weniv.co.kr/">
+          <section class="button">
+              <img class="wenivLogo" src="weniv-logo.png" alt="위니브로고" width="64">
+              <span class="login">로그인</span>
+          </section>
+      </a>
+
+    <section class="find">
+        <a href="">
+            <img src="icon-lock.png" alt="자물쇠 아이콘" width="16px">
+            <span class="idPw">아이디 | 비밀번호찾기</span>
+        </a>
+            <span class="space"> </span>
+        <a href="">
+            <img src="icon-user.png" alt="유저 아이콘" width="16px">
+            <span>회원가입</span>
+        </a>
+    </section>
+  </article>
+
+</body>
+</html>
