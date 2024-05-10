@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input:disabled{
+            color: red;
+            background-color: red;
+        }
+
+        input::placeholder{
+            background-color: teal;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+  <form action="" method="get">
+    <label for="search"> 검색 </label>
+    <input type="text" name="q" id="search" placeholder="검색하세요">
+    <label for="check"> 체크 </label>
+    <input type="checkbox" id="check" required>
+    <button>제출</button>
+  </form>
+
+</body>
+</html>
