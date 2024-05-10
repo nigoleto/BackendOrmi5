@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>static</title>
+    <style>
+        .parent{
+            position: relative;
+            left: 60px;
+            top: 30px;
+        }
+        div{
+            position: relative;
+            color:white;
+            width: 100px;
+            height: 100px;
+        }
+        .box1{
+            background-color: green;
+        }
+
+        .box2{
+            position: fixed;
+            left: 20px;
+            background-color: red;
+        }
+
+        .box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+</div>
+</body>
+</html>
