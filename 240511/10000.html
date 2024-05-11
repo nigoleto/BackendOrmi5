@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1만시간의 법칙</title>
+    <style>
+        @font-face {
+            font-family: 'tvN Enjoystories';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+            font-weight: auto;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Gmarket Sans';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: auto;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #5B2386;
+            font-family: 'Gmarket Sans', sans-serif;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        /* 텍스트 숨김처리 코드 */
+        .txt-hide {
+            clip-path: inset(50%);
+            width: 1px;
+            height: 1px;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        /*전체 감싸는 박스*/
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: column;
+            margin: 140px 0 70px;
+        }
+
+
+        .main-image {
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            position: relative;
+        }
+
+        .txt-img {
+            position: absolute;
+            top: 74px;
+            background-color: transparent;
+            z-index: 1;
+        }
+
+        .txt-practice {
+            margin: 46px 0 0 0;
+            font-family: 'tvN Enjoystories', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #F5DF4D;
+        }
+
+
+        .txt-3 {
+            margin: 78px 0 0 0;
+            display: flex;
+            flex-flow: row;
+        }
+
+        .txt-strong {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .quotes {
+            font-weight: 700;
+            font-size: 96px;
+            color: #F5DF4D;
+            opacity: 30%;
+            line-height: 96px;
+            margin: 17px 0 0 0;
+
+            font-family: 'Gmarket Sans', sans-serif;
+        }
+
+        .description {
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            height: 85px;
+        }
+
+        .txt-4 {
+            margin: 78px 0 0 0;
+            text-align: center;
+            font-weight: 400;
+            font-size: 24px;
+            height: 200px;
+            line-height: 80px;
+        }
+
+        input {
+            width: 228px;
+            height: 57px;
+            border-radius: 7px;
+            background-color: #FFFFFF;
+            border: 0;
+            padding: 5px 0 0 0;
+            color: black;
+            text-align: center;
+            font-weight: 400;
+            font-size: 24px;
+
+        }
+
+        input::placeholder {
+            color: #BABCBE;
+        }
+
+
+        button {
+            /*height: 66px;*/
+            background-color: #FCEE21;
+            color: #5B2386;
+            font-weight: 700;
+            font-size: 24px;
+            padding: 15px 49px;
+            border-radius: 56px;
+            border: 0;
+            text-align: center;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            /*vertical-align: center;*/
+        }
+
+        .button-white{
+            background-color: rgba(255, 255, 255, 1);
+            padding: 20px 49px 17px 49px;
+            vertical-align: center;
+        }
+
+        .howLong{
+            margin: 115px 0 0 0;
+            position: relative ;
+        }
+
+        .click{
+            position: absolute;
+            top: 14px;
+        }
+
+        .txt-5{
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            margin: 147px 0 0 0;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        .txt-5strong{
+            font-weight: 700;
+            font-size: 72px;
+        }
+
+        .what{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .when{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .gogo{
+            margin-top: 127px ;
+            display: flex;
+            gap: 18px;
+        }
+
+        .copyright{
+            margin-top: 130px;
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+        }
+
+        .txt-copyright{
+            margin-top: 20px;
+            width: 365px;
+            font-size: 12px;
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+<section class="container">
+    <h1 class="txt-hide">1만 시간의 법칙</h1>
+    <div class="main-image">
+        <img class="backlogo" src="Frame_logo.png" alt="" width="261">
+        <img class="txt-img" src="Frame_textimg.png" alt="" width="564">
+    </div>
+
+    <p class="txt-practice">"연습은 어제의 당신보다 당신을 더 낫게 만든다."</p>
+
+    <div class="txt-3">
+        <span class="quotes">“</span>
+        <p class="description">
+            <strong class="txt-strong">1만 시간의 법칙</strong>은<br>
+            어떤 분야의 전문가가 되기 위해서는<br>
+            최소한 1만 시간의 훈련이 필요하다는 법칙이다.
+        </p>
+        <span class="quotes">”</span>
+    </div>
+
+    <div class="txt-4">
+        <span>나는</span>
+        <input type="text" name="programming" placeholder="예)프로그래밍"></input>
+        <span>전문가가 될 것이다.</span>
+        <br>
+        <span>그래서 앞으로 매일 하루에 </span>
+        <input type="text" placeholder="예)5시간"></input>
+        <span>시간씩 훈련할 것이다.</span>
+    </div>
+
+    <div class="howLong">
+        <button>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
+        <img class="click" src="Frame_hand.png" alt="click" width="64">
+    </div>
+
+    <div class="txt-5">
+        <p class="what">
+            당신은
+            <strong class="txt-5strong">프로그래밍</strong>
+            전문가가 되기 위해서
+        </p>
+        <p class="when">
+            대략
+            <strong class="txt-5strong">5110</strong>
+            일 이상 훈련하셔야 합니다!:)
+        </p>
+    </div>
+
+    <div class="gogo">
+        <button>훈련하러 가기 GO! GO!</button>
+        <button class="button-white">공유하기</button>
+    </div>
+
+    <div class="copyright">
+        <img src="위니브.png" alt="weniv" width="125">
+
+        <p class="txt-copyright">※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
+            수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</p>
+    </div>
+
+</section>
+
+</body>
+</html>
