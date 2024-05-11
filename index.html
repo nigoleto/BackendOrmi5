@@ -16,8 +16,22 @@
 
         @font-face {
             font-family: 'Gmarket Sans';
-            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-            font-weight: auto;
+            src: url(ttf/GmarketSansTTFLight.ttf) format('truetype');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Gmarket Sans';
+            src: url(ttf/GmarketSansTTFMedium.ttf) format('truetype');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Gmarket Sans';
+            src: url(ttf/GmarketSansTTFBold.ttf) format('truetype');
+            font-weight: 700;
             font-style: normal;
         }
 
@@ -67,7 +81,6 @@
             margin: 46px 0 0 0;
             font-family: 'tvN Enjoystories', sans-serif;
             font-size: 36px;
-            font-weight: 700;
             color: #F5DF4D;
         }
 
@@ -95,16 +108,17 @@
         }
 
         .description {
-            font-weight: 400;
+            font-weight: 300;
             font-size: 18px;
             text-align: center;
+            line-height: 30px;
             height: 85px;
         }
 
         .txt-4 {
             margin: 78px 0 0 0;
             text-align: center;
-            font-weight: 400;
+            font-weight: 300;
             font-size: 24px;
             height: 200px;
             line-height: 80px;
@@ -135,18 +149,31 @@
             color: #5B2386;
             font-weight: 700;
             font-size: 24px;
-            padding: 15px 49px;
+            padding: 22px 49px 18px 49px;
             border-radius: 56px;
             border: 0;
             text-align: center;
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-            /*vertical-align: center;*/
+            vertical-align: text-bottom;
+        }
+
+        button:hover{
+            background-color: #dfd11e;
+        }
+
+        button:active{
+            background-color: #b6ab18;
+            box-shadow: inset 1px 1px 10px -1px black;
         }
 
         .button-white{
             background-color: rgba(255, 255, 255, 1);
-            padding: 20px 49px 17px 49px;
+            padding: 20px 49px 16px 49px;
             vertical-align: center;
+        }
+
+        .button-white:hover{
+            background-color: #d6d6d6;
         }
 
         .howLong{
@@ -164,7 +191,7 @@
             align-items: center;
             flex-flow: column;
             margin: 147px 0 0 0;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 24px;
         }
 
