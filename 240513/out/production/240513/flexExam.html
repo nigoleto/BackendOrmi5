@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+            flex-flow: column;
+            height: 100vh; /*viewport height의 약자*/
+        }
+
+        header{
+            background-color: black;
+            color: white;
+        }
+
+        .cont-wrapper{
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cont-wrapper main{
+            flex-grow: 1;
+            background-color: rosybrown;
+        }
+
+        .cont-wrapper aside{
+            flex-basis: 100px;
+            /*flex-grow: 1;*/
+            background-color: royalblue;
+        }
+
+
+        footer{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<header>Header</header>
+<div class="cont-wrapper">
+    <main>
+        Main Content
+    </main>
+    <aside>
+        Sidebar
+    </aside>
+</div>
+<footer>Footer</footer>
+</body>
+</html>
