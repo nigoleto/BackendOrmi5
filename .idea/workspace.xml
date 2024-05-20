@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/240515/240515.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240515/src/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240516/request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240516/type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240517/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240520/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240520/projectCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/240513/flex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/240513/flex2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
         <option value="JavaScript File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +48,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/BackEndOrmi5&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -101,7 +104,11 @@
       <workItem from="1715687849598" duration="1306000" />
       <workItem from="1715699574559" duration="26000" />
       <workItem from="1715789540523" duration="944000" />
-      <workItem from="1715818832498" duration="3335000" />
+      <workItem from="1715818832498" duration="7198000" />
+      <workItem from="1715910286731" duration="3035000" />
+      <workItem from="1716163658561" duration="17008000" />
+      <workItem from="1716184892699" duration="189000" />
+      <workItem from="1716185109747" duration="4522000" />
     </task>
     <servers />
   </component>

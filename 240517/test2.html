@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    const me = {
+        name: "이상윤",
+        age: 5,
+        thumbsUp: function (person) {
+            person.emotion();
+            console.log(person.comment);
+        }
+    };
+
+    const ormi = {
+        comment: "감사합니다",
+        emotion: function(){
+            this.comment += "👍";
+        }
+    }
+
+    me.thumbsUp(ormi)
+</script>
+</body>
+</html>
