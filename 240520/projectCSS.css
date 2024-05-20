@@ -12,6 +12,13 @@ body{
     font-family: Pretendard, sans-serif;
 }
 
+/*앵커 밑줄 및 글자색*/
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
 /* ------------ 버튼 ------------ */
 
 button {
@@ -344,7 +351,7 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vw;
+    height: 100%;
     background-color: #767676;
     opacity: 50%;
     z-index: 2;
