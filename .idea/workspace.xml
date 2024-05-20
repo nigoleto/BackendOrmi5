@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/240516/type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240517/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240520/project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240520/projectCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/240513/flex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/240513/flex2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/240520/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/240520/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/240520/projectCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/240520/projectCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\BackEndOrmi5\240520" />
       <recent name="C:\Users\USER\Desktop\BackEndOrmi5" />
     </key>
   </component>
@@ -108,7 +106,7 @@
       <workItem from="1715910286731" duration="3035000" />
       <workItem from="1716163658561" duration="17008000" />
       <workItem from="1716184892699" duration="189000" />
-      <workItem from="1716185109747" duration="4522000" />
+      <workItem from="1716185109747" duration="12563000" />
     </task>
     <servers />
   </component>
