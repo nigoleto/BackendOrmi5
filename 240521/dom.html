@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul></ul>
+    <button>button</button>
+
+    <script>
+        const myBtn = document.querySelector("button");
+        const myUl = document.querySelector("ul");
+
+        myBtn.addEventListener('click', ()=>{
+            for(let i=0; i < 3; i++) {
+                const myLi = document.createElement('li');
+                const btnDel = document.createElement('button')
+                const btnTxt = document.createTextNode(`버튼${i}`)
+
+                btnDel.append(btnTxt);
+                btnDel.addEventListener('click', ()=>{
+                    myLi.remove()
+                });
+                myLi.append('삭제하기: ', btnDel);
+                myUl.appendChild(myLi);
+            }
+        })
+    </script>
+</body>
+</html>

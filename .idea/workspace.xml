@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/240521/dom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240521/dom2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/240520/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/240520/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/240520/projectCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/240520/projectCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/BackEndOrmi5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/frontProject&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -106,7 +106,10 @@
       <workItem from="1715910286731" duration="3035000" />
       <workItem from="1716163658561" duration="17008000" />
       <workItem from="1716184892699" duration="189000" />
-      <workItem from="1716185109747" duration="14909000" />
+      <workItem from="1716185109747" duration="14982000" />
+      <workItem from="1716210488654" duration="582000" />
+      <workItem from="1716211139378" duration="16000" />
+      <workItem from="1716258062828" duration="1956000" />
     </task>
     <servers />
   </component>
