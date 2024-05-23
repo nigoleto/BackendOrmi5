@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/240521/dom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240521/dom2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240523/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -110,6 +112,9 @@
       <workItem from="1716210488654" duration="582000" />
       <workItem from="1716211139378" duration="16000" />
       <workItem from="1716258062828" duration="1956000" />
+      <workItem from="1716264084246" duration="601000" />
+      <workItem from="1716431262725" duration="1880000" />
+      <workItem from="1716437304837" duration="461000" />
     </task>
     <servers />
   </component>

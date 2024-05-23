@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>나의 todo list</h1>
+<div>
+    <p>1. 오늘 저녁에는 부대찌게를 끓여 먹겠다.<button type="button">삭제</button></p>
+    <p>2. 후식으로 슈팅스타를 먹겠다.<button type="button">삭제</button></p>
+    <p>3. 자기 전에 반드시 내일 아침 메뉴를 생각해두겠다.<button type="button">삭제</button></p>
+</div>
+
+<script>
+    const div = document.querySelector('div');
+    div.addEventListener('click', (e)=>{
+        alert(e.target.textContent)
+
+    }, )
+
+    const button = document.querySelectorAll('button');
+    button.forEach((i) => {
+        i.addEventListener('click', (e)=>{
+                e.stopPropagation()
+                if(confirm('삭제?')){
+                    i.parentElement.remove();
+                }
+            },)
+    })
+
+
+    // ----------------답안 ------------------- //
+    // const txts =document.querySelectorAll('p');
+    // const btns = document.querySelectorAll('button');
+    //
+    // txts.forEach((i) => {
+    //     i.addEventListener('click', (e) => {
+    //         alert(e.target.childNodes[0].textContent);
+    //
+    //     })
+    // })
+    //
+    // btns.forEach((i) => {
+    //     i.addEventListener('click', (e) => {
+    //         e.stopPropagation()
+    //         if(confirm('삭제?')){
+    //             i.parentElement.remove();
+    //         }
+    //     })
+    // })
+</script>
+</body>
+</html>
