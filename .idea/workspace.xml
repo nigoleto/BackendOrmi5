@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/240524/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240524/ajax2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240524/callBackHELL.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240524/greetings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240524/message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/240524/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/picsum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/240515/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/240515/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/240515/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/240515/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +118,7 @@
       <workItem from="1716437304837" duration="1086000" />
       <workItem from="1716457774789" duration="4376000" />
       <workItem from="1716511298043" duration="6441000" />
+      <workItem from="1716523902863" duration="2724000" />
     </task>
     <servers />
   </component>
