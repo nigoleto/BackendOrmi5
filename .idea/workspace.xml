@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20e87fd-a28e-462e-bf63-0fb321cab592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/240523/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/ajax2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/callBackHELL.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/greetings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/240524/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/240515/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/240515/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/240515/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/240515/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\BackEndOrmi5\240524" />
       <recent name="C:\Users\USER\Desktop\BackEndOrmi5\240520" />
       <recent name="C:\Users\USER\Desktop\BackEndOrmi5" />
     </key>
@@ -114,22 +122,13 @@
       <workItem from="1716258062828" duration="1956000" />
       <workItem from="1716264084246" duration="601000" />
       <workItem from="1716431262725" duration="1880000" />
-      <workItem from="1716437304837" duration="461000" />
+      <workItem from="1716437304837" duration="1086000" />
+      <workItem from="1716457774789" duration="4376000" />
+      <workItem from="1716511298043" duration="6441000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/240515/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
